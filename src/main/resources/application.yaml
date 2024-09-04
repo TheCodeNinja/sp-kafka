@@ -1,0 +1,19 @@
+#spring:
+#  application:
+#    name: DemoDbRestApi
+#  datasource:
+#    url: jdbc:h2:mem:testdb?serverTimezone=UTC&cachePrepStmts=true&useServerPrepStmts=true&rewriteBatchedStatements=true
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    properties:
+#      hibernate.jdbc.batch_size: 1000
+#server:
+#  port: 9876
+#spring:
+#  kafka:
+#    bootstrap-servers: localhost:9092
